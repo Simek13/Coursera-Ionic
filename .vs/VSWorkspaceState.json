@@ -1,0 +1,19 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\pages",
+    "\\src\\pages\\contact",
+    "\\src\\pages\\dishdetail",
+    "\\src\\pages\\home",
+    "\\src\\pages\\menu",
+    "\\src\\providers",
+    "\\src\\providers\\dish",
+    "\\src\\providers\\leader",
+    "\\src\\providers\\process-httpmsg",
+    "\\src\\providers\\promotion",
+    "\\src\\shared"
+  ],
+  "SelectedNode": "\\src\\pages\\dishdetail\\dishdetail.html",
+  "PreviewInSolutionExplorer": false
+}
