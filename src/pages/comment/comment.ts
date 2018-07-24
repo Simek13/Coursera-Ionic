@@ -3,7 +3,7 @@ import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angul
 import { Validators, FormBuilder, FormGroup } from '@angular/forms';
 
 /**
- * Generated class for the ReservationPage page.
+ * Generated class for the CommentPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,26 +11,25 @@ import { Validators, FormBuilder, FormGroup } from '@angular/forms';
 
 @IonicPage()
 @Component({
-  selector: 'page-reservation',
-  templateUrl: 'reservation.html',
+  selector: 'page-comment',
+  templateUrl: 'comment.html',
 })
-export class ReservationPage {
+export class CommentPage {
 
-  reservation: FormGroup;
+  comment: FormGroup;
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
-    public viewCtrl: ViewController, private formBuilder: FormBuilder) {
+    private viewCtrl: ViewController, private formBuilder: FormBuilder) {
 
-    this.reservation = this.formBuilder.group({
-      guests: 3,
-      smoking: false,
-      dateTime: ['', Validators.required]
+    this.comment = this.formBuilder.group({
+      rating: [3, Validators.required],
+      author: ['', Validators.required],
+      comment: ['', Validators.required]
     })
-
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ReservationPage');
+    console.log('ionViewDidLoad CommentPage');
   }
 
   dismiss() {
@@ -38,7 +37,7 @@ export class ReservationPage {
   }
 
   onSubmit() {
-    console.log('this.reservation.value');
+    console.log('this.comment.value');
     this.viewCtrl.dismiss();
   }
 

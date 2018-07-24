@@ -2,18 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\app",
     "\\src\\pages",
-    "\\src\\pages\\contact",
-    "\\src\\pages\\dishdetail",
-    "\\src\\pages\\home",
-    "\\src\\pages\\menu",
+    "\\src\\pages\\about",
+    "\\src\\pages\\comment",
+    "\\src\\pages\\favorites",
+    "\\src\\pages\\reservation",
     "\\src\\providers",
-    "\\src\\providers\\dish",
-    "\\src\\providers\\leader",
-    "\\src\\providers\\process-httpmsg",
-    "\\src\\providers\\promotion",
+    "\\src\\providers\\favorite",
     "\\src\\shared"
   ],
-  "SelectedNode": "\\src\\pages\\dishdetail\\dishdetail.html",
+  "SelectedNode": "\\src\\pages\\comment\\comment.html",
   "PreviewInSolutionExplorer": false
 }
